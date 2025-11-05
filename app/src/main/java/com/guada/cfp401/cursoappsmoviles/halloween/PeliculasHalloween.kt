@@ -92,18 +92,34 @@ fun TarjetaPeliculas (pelicula: Pelicula) {
         Text(
             text = pelicula.actores,
             fontFamily = FontFamily(Font(R.font.coolvetica_rg)),
+            modifier = Modifier
+                .drawBehind{
+                    drawRoundRect(Color.White, cornerRadius = CornerRadius(2f))
+                }.padding(8.dp)
         )
         Text(
             text = pelicula.descripcion,
-            fontFamily = FontFamily(Font(R.font.coolvetica_rg))
+            fontFamily = FontFamily(Font(R.font.coolvetica_rg)),
+            modifier = Modifier
+                .drawBehind{
+                    drawRoundRect(Color.White, cornerRadius = CornerRadius(10f))
+                }.padding(10.dp)
         )
         Text(
             text = pelicula.duracion,
-            fontFamily = FontFamily(Font(R.font.coolvetica_rg))
+            fontFamily = FontFamily(Font(R.font.coolvetica_rg)),
+            modifier = Modifier
+                .drawBehind{
+                    drawRoundRect(Color.White, cornerRadius = CornerRadius(10f))
+                }.padding(5.dp)
         )
         Text(
             text = pelicula.verla,
-            fontFamily = FontFamily(Font(R.font.coolvetica_rg))
+            fontFamily = FontFamily(Font(R.font.coolvetica_rg)),
+            modifier = Modifier
+                .drawBehind{
+                    drawRoundRect(Color.White, cornerRadius = CornerRadius(10f))
+                }.padding(5.dp)
         )
     }
 }

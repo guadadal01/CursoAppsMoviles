@@ -1,4 +1,5 @@
 <resources>
     <string name="PrimeraApp">CursoAppsMoviles</string>
     <string name="title_activity_peliculas_halloween">PeliculasHalloween</string>
+    <string name="title_activity_rgbcolores">RGBColores</string>
 </resources>
