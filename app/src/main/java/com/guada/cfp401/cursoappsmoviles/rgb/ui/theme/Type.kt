@@ -1,4 +1,4 @@
-package com.guada.cfp401.cursoappsmoviles.RGB.ui.theme
+package com.guada.cfp401.cursoappsmoviles.rgb.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

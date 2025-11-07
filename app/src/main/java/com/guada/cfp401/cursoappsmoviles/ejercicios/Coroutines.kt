@@ -1,4 +1,4 @@
-package com.guada.cfp401.cursoappsmoviles
+package com.guada.cfp401.cursoappsmoviles.ejercicios
 
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.coroutineScope
@@ -6,7 +6,6 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlin.random.Random
-import kotlin.random.nextInt
 
 fun problema1(){
     GlobalScope.launch {

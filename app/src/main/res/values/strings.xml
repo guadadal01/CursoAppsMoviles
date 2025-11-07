@@ -2,4 +2,6 @@
     <string name="PrimeraApp">CursoAppsMoviles</string>
     <string name="title_activity_peliculas_halloween">PeliculasHalloween</string>
     <string name="title_activity_rgbcolores">RGBColores</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_main">MainActivity</string>
 </resources>
